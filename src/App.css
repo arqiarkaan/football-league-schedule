@@ -412,21 +412,142 @@
   gap: 12px;
 }
 
-.team-dropdown {
-  background: rgba(17, 19, 24, 0.8);
+/* Searchable Select Component */
+.searchable-select {
+  position: relative;
+  min-width: 250px;
+}
+
+.select-trigger {
+  background: linear-gradient(
+    135deg,
+    rgba(17, 19, 24, 0.9) 0%,
+    rgba(31, 41, 55, 0.8) 100%
+  );
   border: 1px solid #374151;
   border-radius: 10px;
   padding: 12px 16px;
   color: #e8eaf3;
   font-size: 14px;
-  min-width: 250px;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
 }
 
-.team-dropdown:focus {
-  outline: none;
+.select-trigger:hover {
+  border-color: #4b5563;
+  background: linear-gradient(
+    135deg,
+    rgba(31, 41, 55, 0.9) 0%,
+    rgba(55, 65, 81, 0.8) 100%
+  );
+}
+
+.select-trigger.focused {
   border-color: #3b82f6;
   box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
+
+.select-value {
+  flex: 1;
+  text-align: left;
+  color: #e8eaf3;
+}
+
+.select-value:empty::before {
+  content: attr(data-placeholder);
+  color: #9ca3af;
+}
+
+.select-arrow {
+  margin-left: 8px;
+  transition: transform 0.2s ease;
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+.select-arrow.open {
+  transform: rotate(180deg);
+}
+
+.select-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(17, 19, 24, 0.95);
+  border: 1px solid #374151;
+  border-radius: 10px;
+  margin-top: 4px;
+  z-index: 1000;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.select-search {
+  padding: 12px;
+  border-bottom: 1px solid #374151;
+}
+
+.select-search-input {
+  width: 100%;
+  background: rgba(31, 41, 55, 0.8);
+  border: 1px solid #4b5563;
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: #e8eaf3;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.select-search-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
+
+.select-search-input::placeholder {
+  color: #9ca3af;
+}
+
+.select-options {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.select-option {
+  padding: 12px 16px;
+  color: #e8eaf3;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+}
+
+.select-option:hover {
+  background: rgba(55, 65, 81, 0.5);
+}
+
+.select-option.selected {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  font-weight: 600;
+}
+
+.select-no-results {
+  padding: 16px;
+  text-align: center;
+  color: #9ca3af;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* Legacy dropdown styling for compatibility */
+.team-dropdown.searchable-select .select-trigger {
+  min-width: 250px;
 }
 
 .toggle-highlight-btn {
@@ -745,9 +866,13 @@
     justify-content: space-between;
   }
 
-  .team-dropdown {
+  .searchable-select {
     min-width: auto;
     flex: 1;
+  }
+
+  .team-dropdown.searchable-select .select-trigger {
+    min-width: auto;
   }
 
   .team-selector.expanded {
@@ -768,6 +893,9 @@
 
   .league-filter {
     text-align: center;
+    padding: 14px 20px;
+    font-size: 15px;
+    min-height: 50px;
   }
 
   .league-controls {
@@ -856,8 +984,10 @@
   }
 
   .status-filter {
-    font-size: 11px;
-    padding: 6px 10px;
+    font-size: 14px;
+    padding: 12px 16px;
+    min-height: 44px;
+    min-width: 80px;
   }
 
   .team-selector h2 {

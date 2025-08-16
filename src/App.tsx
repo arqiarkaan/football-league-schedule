@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, useRef } from 'react';
 import './App.css';
 
 type Team = { id: number; name: string };
@@ -187,6 +187,103 @@ function StatusPill({ status, time }: { status: Status; time: string }) {
     );
   }
   return <span className="pill pill-finished">FT</span>;
+}
+
+function SearchableSelect({
+  value,
+  onChange,
+  options,
+  placeholder,
+  className,
+}: {
+  value: string;
+  onChange: (value: string) => void;
+  options: string[];
+  placeholder: string;
+  className?: string;
+}) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const filteredOptions = useMemo(() => {
+    if (!searchQuery.trim()) return options;
+    return options.filter((option) =>
+      option.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  }, [options, searchQuery]);
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setIsOpen(false);
+        setSearchQuery('');
+      }
+    }
+
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+      return () =>
+        document.removeEventListener('mousedown', handleClickOutside);
+    }
+  }, [isOpen]);
+
+  const handleSelect = (option: string) => {
+    onChange(option);
+    setIsOpen(false);
+    setSearchQuery('');
+  };
+
+  return (
+    <div className={`searchable-select ${className || ''}`} ref={dropdownRef}>
+      <div className="select-trigger" onClick={() => setIsOpen(!isOpen)}>
+        <span className="select-value">{value || placeholder}</span>
+        <span className={`select-arrow ${isOpen ? 'open' : ''}`}>▼</span>
+      </div>
+
+      {isOpen && (
+        <div className="select-dropdown">
+          <div className="select-search">
+            <input
+              type="text"
+              placeholder="Cari tim..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="select-search-input"
+              autoFocus
+            />
+          </div>
+          <div className="select-options">
+            <div
+              className={`select-option ${!value ? 'selected' : ''}`}
+              onClick={() => handleSelect('')}
+            >
+              {placeholder}
+            </div>
+            {filteredOptions.map((option) => (
+              <div
+                key={option}
+                className={`select-option ${
+                  value === option ? 'selected' : ''
+                }`}
+                onClick={() => handleSelect(option)}
+              >
+                {option}
+              </div>
+            ))}
+            {filteredOptions.length === 0 && searchQuery && (
+              <div className="select-no-results">
+                Tidak ada tim yang ditemukan
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
 
 function Pagination({
@@ -528,18 +625,13 @@ export default function App() {
             >
               <h2>🌟 Highlight Tim</h2>
               <div className="highlight-controls">
-                <select
+                <SearchableSelect
                   value={selectedTeam}
-                  onChange={(e) => setSelectedTeam(e.target.value)}
+                  onChange={setSelectedTeam}
+                  options={allTeams}
+                  placeholder="Pilih tim untuk melihat jadwal..."
                   className="team-dropdown"
-                >
-                  <option value="">Pilih tim untuk melihat jadwal...</option>
-                  {allTeams.map((team) => (
-                    <option key={team} value={team}>
-                      {team}
-                    </option>
-                  ))}
-                </select>
+                />
                 <button
                   className="toggle-highlight-btn"
                   onClick={() => setShowTeamHighlight(!showTeamHighlight)}
