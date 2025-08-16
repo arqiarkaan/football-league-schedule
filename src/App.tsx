@@ -636,7 +636,7 @@ export default function App() {
                   className="toggle-highlight-btn"
                   onClick={() => setShowTeamHighlight(!showTeamHighlight)}
                 >
-                  {showTeamHighlight ? '👁️ Hide' : '👁️ Show'}
+                  {showTeamHighlight ? '😑 Hide' : '👁️ Show'}
                 </button>
               </div>
             </div>
