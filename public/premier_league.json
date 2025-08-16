@@ -1,0 +1,5846 @@
+{
+  "metadata": {
+    "league": "Premier League",
+    "total_matches": 389,
+    "last_updated": "2025-08-16T12:21:37.827Z",
+    "timezone": "WIB (UTC+7)",
+    "filtered_out": 42
+  },
+  "matches": [
+    {
+      "id": 954373,
+      "date": "16/08/2025",
+      "time": "02:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954374,
+      "date": "16/08/2025",
+      "time": "18:30",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954378,
+      "date": "16/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954377,
+      "date": "16/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954375,
+      "date": "16/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954376,
+      "date": "16/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954379,
+      "date": "16/08/2025",
+      "time": "23:30",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954380,
+      "date": "17/08/2025",
+      "time": "20:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 961402,
+      "date": "17/08/2025",
+      "time": "20:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954381,
+      "date": "17/08/2025",
+      "time": "22:30",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954382,
+      "date": "19/08/2025",
+      "time": "02:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 965410,
+      "date": "23/08/2025",
+      "time": "02:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954384,
+      "date": "23/08/2025",
+      "time": "18:30",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954392,
+      "date": "23/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954383,
+      "date": "23/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954385,
+      "date": "23/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954386,
+      "date": "23/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954387,
+      "date": "23/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954389,
+      "date": "23/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954390,
+      "date": "23/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954391,
+      "date": "23/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954388,
+      "date": "23/08/2025",
+      "time": "23:30",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 965411,
+      "date": "24/08/2025",
+      "time": "20:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 965412,
+      "date": "24/08/2025",
+      "time": "20:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 965413,
+      "date": "24/08/2025",
+      "time": "22:30",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 965414,
+      "date": "26/08/2025",
+      "time": "02:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 965415,
+      "date": "30/08/2025",
+      "time": "02:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954397,
+      "date": "30/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954399,
+      "date": "30/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954400,
+      "date": "30/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954401,
+      "date": "30/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954402,
+      "date": "30/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954394,
+      "date": "30/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954395,
+      "date": "30/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954396,
+      "date": "30/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954398,
+      "date": "30/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954393,
+      "date": "30/08/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 965417,
+      "date": "31/08/2025",
+      "time": "20:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 965416,
+      "date": "31/08/2025",
+      "time": "20:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 965418,
+      "date": "31/08/2025",
+      "time": "22:30",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954403,
+      "date": "13/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954404,
+      "date": "13/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954405,
+      "date": "13/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954411,
+      "date": "13/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954412,
+      "date": "13/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954408,
+      "date": "13/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954409,
+      "date": "13/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954410,
+      "date": "13/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954407,
+      "date": "13/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954406,
+      "date": "13/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954416,
+      "date": "20/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954413,
+      "date": "20/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954414,
+      "date": "20/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954415,
+      "date": "20/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954417,
+      "date": "20/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954418,
+      "date": "20/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954419,
+      "date": "20/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954420,
+      "date": "20/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954421,
+      "date": "20/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954422,
+      "date": "20/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954426,
+      "date": "27/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954427,
+      "date": "27/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954428,
+      "date": "27/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954429,
+      "date": "27/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954430,
+      "date": "27/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954431,
+      "date": "27/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954432,
+      "date": "27/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954424,
+      "date": "27/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954425,
+      "date": "27/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954423,
+      "date": "27/09/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954436,
+      "date": "04/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954442,
+      "date": "04/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954441,
+      "date": "04/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954440,
+      "date": "04/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954439,
+      "date": "04/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954438,
+      "date": "04/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954437,
+      "date": "04/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954435,
+      "date": "04/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954434,
+      "date": "04/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954433,
+      "date": "04/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954448,
+      "date": "18/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954443,
+      "date": "18/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954444,
+      "date": "18/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954445,
+      "date": "18/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954446,
+      "date": "18/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954447,
+      "date": "18/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954452,
+      "date": "18/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954451,
+      "date": "18/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954450,
+      "date": "18/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954449,
+      "date": "18/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954462,
+      "date": "25/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954461,
+      "date": "25/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954460,
+      "date": "25/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954459,
+      "date": "25/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954458,
+      "date": "25/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954457,
+      "date": "25/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954456,
+      "date": "25/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954455,
+      "date": "25/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954454,
+      "date": "25/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954453,
+      "date": "25/10/2025",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954468,
+      "date": "01/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954472,
+      "date": "01/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954471,
+      "date": "01/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954470,
+      "date": "01/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954469,
+      "date": "01/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954467,
+      "date": "01/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954466,
+      "date": "01/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954465,
+      "date": "01/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954464,
+      "date": "01/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954463,
+      "date": "01/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954479,
+      "date": "08/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954478,
+      "date": "08/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954477,
+      "date": "08/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954476,
+      "date": "08/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954475,
+      "date": "08/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954474,
+      "date": "08/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954473,
+      "date": "08/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954480,
+      "date": "08/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954482,
+      "date": "08/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954481,
+      "date": "08/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954483,
+      "date": "22/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954492,
+      "date": "22/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954484,
+      "date": "22/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954485,
+      "date": "22/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954486,
+      "date": "22/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954487,
+      "date": "22/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954491,
+      "date": "22/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954488,
+      "date": "22/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954489,
+      "date": "22/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954490,
+      "date": "22/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954498,
+      "date": "29/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954493,
+      "date": "29/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954494,
+      "date": "29/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954495,
+      "date": "29/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954496,
+      "date": "29/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954497,
+      "date": "29/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954499,
+      "date": "29/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954500,
+      "date": "29/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954501,
+      "date": "29/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954502,
+      "date": "29/11/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954505,
+      "date": "04/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954506,
+      "date": "04/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954507,
+      "date": "04/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954508,
+      "date": "04/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954509,
+      "date": "04/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954504,
+      "date": "04/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954510,
+      "date": "04/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954511,
+      "date": "04/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954512,
+      "date": "04/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954503,
+      "date": "04/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954514,
+      "date": "06/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954515,
+      "date": "06/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954516,
+      "date": "06/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 961403,
+      "date": "06/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954517,
+      "date": "06/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954518,
+      "date": "06/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954519,
+      "date": "06/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954513,
+      "date": "06/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 961404,
+      "date": "06/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954525,
+      "date": "13/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954528,
+      "date": "13/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954520,
+      "date": "13/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954521,
+      "date": "13/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954522,
+      "date": "13/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954524,
+      "date": "13/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 961405,
+      "date": "13/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954527,
+      "date": "13/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954526,
+      "date": "13/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954523,
+      "date": "13/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954529,
+      "date": "20/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954537,
+      "date": "20/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954535,
+      "date": "20/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954534,
+      "date": "20/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954533,
+      "date": "20/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954532,
+      "date": "20/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954531,
+      "date": "20/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954530,
+      "date": "20/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954536,
+      "date": "20/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 961406,
+      "date": "20/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954546,
+      "date": "27/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954545,
+      "date": "27/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954544,
+      "date": "27/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954543,
+      "date": "27/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954542,
+      "date": "27/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954541,
+      "date": "27/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954540,
+      "date": "27/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954539,
+      "date": "27/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954547,
+      "date": "27/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954538,
+      "date": "27/12/2025",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954548,
+      "date": "31/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954557,
+      "date": "31/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954556,
+      "date": "31/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954555,
+      "date": "31/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954554,
+      "date": "31/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954552,
+      "date": "31/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954551,
+      "date": "31/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954550,
+      "date": "31/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954549,
+      "date": "31/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954553,
+      "date": "31/12/2025",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954567,
+      "date": "03/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954565,
+      "date": "03/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954564,
+      "date": "03/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954563,
+      "date": "03/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954562,
+      "date": "03/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954561,
+      "date": "03/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954560,
+      "date": "03/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954559,
+      "date": "03/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954558,
+      "date": "03/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954566,
+      "date": "03/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954568,
+      "date": "08/01/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 961407,
+      "date": "08/01/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954576,
+      "date": "08/01/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954575,
+      "date": "08/01/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954574,
+      "date": "08/01/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954573,
+      "date": "08/01/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954572,
+      "date": "08/01/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954571,
+      "date": "08/01/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954570,
+      "date": "08/01/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954569,
+      "date": "08/01/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954579,
+      "date": "17/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954578,
+      "date": "17/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954577,
+      "date": "17/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954580,
+      "date": "17/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954586,
+      "date": "17/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954585,
+      "date": "17/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954584,
+      "date": "17/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954583,
+      "date": "17/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954582,
+      "date": "17/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954581,
+      "date": "17/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954594,
+      "date": "24/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954587,
+      "date": "24/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954588,
+      "date": "24/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954589,
+      "date": "24/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954590,
+      "date": "24/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954591,
+      "date": "24/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954592,
+      "date": "24/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954593,
+      "date": "24/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954595,
+      "date": "24/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954596,
+      "date": "24/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954606,
+      "date": "31/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954604,
+      "date": "31/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954601,
+      "date": "31/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954600,
+      "date": "31/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954599,
+      "date": "31/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954598,
+      "date": "31/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954597,
+      "date": "31/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954602,
+      "date": "31/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954603,
+      "date": "31/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954605,
+      "date": "31/01/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954614,
+      "date": "07/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954613,
+      "date": "07/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 961408,
+      "date": "07/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954615,
+      "date": "07/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954612,
+      "date": "07/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954611,
+      "date": "07/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954610,
+      "date": "07/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954609,
+      "date": "07/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954608,
+      "date": "07/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954607,
+      "date": "07/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954622,
+      "date": "12/02/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954624,
+      "date": "12/02/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954623,
+      "date": "12/02/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954738,
+      "date": "12/02/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954616,
+      "date": "12/02/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954617,
+      "date": "12/02/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954618,
+      "date": "12/02/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954619,
+      "date": "12/02/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954620,
+      "date": "12/02/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954621,
+      "date": "12/02/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954630,
+      "date": "21/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954631,
+      "date": "21/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954632,
+      "date": "21/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954633,
+      "date": "21/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954634,
+      "date": "21/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954628,
+      "date": "21/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954629,
+      "date": "21/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954625,
+      "date": "21/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954626,
+      "date": "21/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954627,
+      "date": "21/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954637,
+      "date": "28/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954635,
+      "date": "28/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954636,
+      "date": "28/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954638,
+      "date": "28/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954639,
+      "date": "28/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954640,
+      "date": "28/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954641,
+      "date": "28/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954642,
+      "date": "28/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954643,
+      "date": "28/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954644,
+      "date": "28/02/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954739,
+      "date": "05/03/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954652,
+      "date": "05/03/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954651,
+      "date": "05/03/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954650,
+      "date": "05/03/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954649,
+      "date": "05/03/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954648,
+      "date": "05/03/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 961409,
+      "date": "05/03/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954645,
+      "date": "05/03/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954647,
+      "date": "05/03/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954646,
+      "date": "05/03/2026",
+      "time": "03:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954658,
+      "date": "14/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954659,
+      "date": "14/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954660,
+      "date": "14/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954661,
+      "date": "14/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954662,
+      "date": "14/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954653,
+      "date": "14/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954654,
+      "date": "14/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954655,
+      "date": "14/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954656,
+      "date": "14/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954657,
+      "date": "14/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954672,
+      "date": "21/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954671,
+      "date": "21/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954670,
+      "date": "21/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954669,
+      "date": "21/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954668,
+      "date": "21/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954667,
+      "date": "21/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954663,
+      "date": "21/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954664,
+      "date": "21/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954665,
+      "date": "21/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954666,
+      "date": "21/03/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954674,
+      "date": "11/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954740,
+      "date": "11/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954681,
+      "date": "11/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954680,
+      "date": "11/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954679,
+      "date": "11/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954678,
+      "date": "11/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954677,
+      "date": "11/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954676,
+      "date": "11/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954675,
+      "date": "11/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954673,
+      "date": "11/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954684,
+      "date": "18/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954683,
+      "date": "18/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954682,
+      "date": "18/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954686,
+      "date": "18/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954685,
+      "date": "18/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954691,
+      "date": "18/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954690,
+      "date": "18/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954689,
+      "date": "18/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954688,
+      "date": "18/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954687,
+      "date": "18/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954697,
+      "date": "25/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954696,
+      "date": "25/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954695,
+      "date": "25/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954694,
+      "date": "25/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954693,
+      "date": "25/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 954692,
+      "date": "25/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954699,
+      "date": "25/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954700,
+      "date": "25/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954701,
+      "date": "25/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954698,
+      "date": "25/04/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 961410,
+      "date": "02/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954707,
+      "date": "02/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954708,
+      "date": "02/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954742,
+      "date": "02/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954741,
+      "date": "02/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954706,
+      "date": "02/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954705,
+      "date": "02/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954704,
+      "date": "02/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954702,
+      "date": "02/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954703,
+      "date": "02/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954717,
+      "date": "09/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954709,
+      "date": "09/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954710,
+      "date": "09/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954711,
+      "date": "09/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954712,
+      "date": "09/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954713,
+      "date": "09/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    },
+    {
+      "id": 961411,
+      "date": "09/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954714,
+      "date": "09/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954715,
+      "date": "09/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954716,
+      "date": "09/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954723,
+      "date": "17/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        },
+        "away": {
+          "id": 4145,
+          "name": "Fulham"
+        }
+      }
+    },
+    {
+      "id": 954727,
+      "date": "17/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4139,
+          "name": "Everton"
+        },
+        "away": {
+          "id": 3073,
+          "name": "Sunderland"
+        }
+      }
+    },
+    {
+      "id": 954726,
+      "date": "17/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4148,
+          "name": "Brentford"
+        },
+        "away": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        }
+      }
+    },
+    {
+      "id": 954725,
+      "date": "17/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2916,
+          "name": "Chelsea"
+        },
+        "away": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        }
+      }
+    },
+    {
+      "id": 954724,
+      "date": "17/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3071,
+          "name": "Newcastle United"
+        },
+        "away": {
+          "id": 3059,
+          "name": "West Ham United"
+        }
+      }
+    },
+    {
+      "id": 954722,
+      "date": "17/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        },
+        "away": {
+          "id": 4136,
+          "name": "Manchester City"
+        }
+      }
+    },
+    {
+      "id": 954721,
+      "date": "17/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 3068,
+          "name": "Arsenal"
+        },
+        "away": {
+          "id": 3104,
+          "name": "Burnley"
+        }
+      }
+    },
+    {
+      "id": 954720,
+      "date": "17/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 2912,
+          "name": "Aston Villa"
+        },
+        "away": {
+          "id": 4138,
+          "name": "Liverpool"
+        }
+      }
+    },
+    {
+      "id": 954719,
+      "date": "17/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4137,
+          "name": "Manchester United"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        }
+      }
+    },
+    {
+      "id": 954718,
+      "date": "17/05/2026",
+      "time": "21:00",
+      "teams": {
+        "home": {
+          "id": 4147,
+          "name": "Leeds United"
+        },
+        "away": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        }
+      }
+    },
+    {
+      "id": 954736,
+      "date": "24/05/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3073,
+          "name": "Sunderland"
+        },
+        "away": {
+          "id": 2916,
+          "name": "Chelsea"
+        }
+      }
+    },
+    {
+      "id": 954729,
+      "date": "24/05/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3104,
+          "name": "Burnley"
+        },
+        "away": {
+          "id": 3074,
+          "name": "Wolverhampton Wanderers"
+        }
+      }
+    },
+    {
+      "id": 954730,
+      "date": "24/05/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3059,
+          "name": "West Ham United"
+        },
+        "away": {
+          "id": 4147,
+          "name": "Leeds United"
+        }
+      }
+    },
+    {
+      "id": 954731,
+      "date": "24/05/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4145,
+          "name": "Fulham"
+        },
+        "away": {
+          "id": 3071,
+          "name": "Newcastle United"
+        }
+      }
+    },
+    {
+      "id": 954737,
+      "date": "24/05/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4140,
+          "name": "Crystal Palace"
+        },
+        "away": {
+          "id": 3068,
+          "name": "Arsenal"
+        }
+      }
+    },
+    {
+      "id": 954732,
+      "date": "24/05/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4149,
+          "name": "Nottingham Forest"
+        },
+        "away": {
+          "id": 3072,
+          "name": "AFC Bournemouth"
+        }
+      }
+    },
+    {
+      "id": 954728,
+      "date": "24/05/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 3200,
+          "name": "Brighton & Hove Albion"
+        },
+        "away": {
+          "id": 4137,
+          "name": "Manchester United"
+        }
+      }
+    },
+    {
+      "id": 954733,
+      "date": "24/05/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4138,
+          "name": "Liverpool"
+        },
+        "away": {
+          "id": 4148,
+          "name": "Brentford"
+        }
+      }
+    },
+    {
+      "id": 954735,
+      "date": "24/05/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 2909,
+          "name": "Tottenham Hotspur"
+        },
+        "away": {
+          "id": 4139,
+          "name": "Everton"
+        }
+      }
+    },
+    {
+      "id": 954734,
+      "date": "24/05/2026",
+      "time": "22:00",
+      "teams": {
+        "home": {
+          "id": 4136,
+          "name": "Manchester City"
+        },
+        "away": {
+          "id": 2912,
+          "name": "Aston Villa"
+        }
+      }
+    }
+  ]
+}

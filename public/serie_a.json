@@ -1,0 +1,5711 @@
+{
+  "metadata": {
+    "league": "Serie A",
+    "total_matches": 380,
+    "last_updated": "2025-08-16T12:21:37.874Z",
+    "timezone": "WIB (UTC+7)",
+    "filtered_out": 0
+  },
+  "matches": [
+    {
+      "id": 953993,
+      "date": "23/08/2025",
+      "time": "23:30",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 953996,
+      "date": "23/08/2025",
+      "time": "23:30",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 953988,
+      "date": "24/08/2025",
+      "time": "01:45",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 953989,
+      "date": "24/08/2025",
+      "time": "01:45",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 953995,
+      "date": "24/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 953994,
+      "date": "24/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 953992,
+      "date": "24/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 953991,
+      "date": "24/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 953990,
+      "date": "24/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 953997,
+      "date": "24/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954000,
+      "date": "31/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 953998,
+      "date": "31/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 953999,
+      "date": "31/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954001,
+      "date": "31/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954002,
+      "date": "31/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954003,
+      "date": "31/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954004,
+      "date": "31/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954005,
+      "date": "31/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954006,
+      "date": "31/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954007,
+      "date": "31/08/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954013,
+      "date": "14/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954014,
+      "date": "14/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954008,
+      "date": "14/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954015,
+      "date": "14/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954016,
+      "date": "14/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954017,
+      "date": "14/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954009,
+      "date": "14/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954010,
+      "date": "14/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954011,
+      "date": "14/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954012,
+      "date": "14/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954019,
+      "date": "21/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954021,
+      "date": "21/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954022,
+      "date": "21/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954023,
+      "date": "21/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954024,
+      "date": "21/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954025,
+      "date": "21/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954027,
+      "date": "21/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954020,
+      "date": "21/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954018,
+      "date": "21/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954026,
+      "date": "21/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954036,
+      "date": "28/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954028,
+      "date": "28/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954029,
+      "date": "28/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954030,
+      "date": "28/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954031,
+      "date": "28/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954032,
+      "date": "28/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954033,
+      "date": "28/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954034,
+      "date": "28/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954035,
+      "date": "28/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954037,
+      "date": "28/09/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954041,
+      "date": "05/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954042,
+      "date": "05/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954043,
+      "date": "05/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954044,
+      "date": "05/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954045,
+      "date": "05/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954046,
+      "date": "05/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954047,
+      "date": "05/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954040,
+      "date": "05/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954039,
+      "date": "05/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954038,
+      "date": "05/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954051,
+      "date": "19/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954052,
+      "date": "19/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954053,
+      "date": "19/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954054,
+      "date": "19/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954055,
+      "date": "19/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954056,
+      "date": "19/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954057,
+      "date": "19/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954048,
+      "date": "19/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954049,
+      "date": "19/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954050,
+      "date": "19/10/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954061,
+      "date": "26/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954062,
+      "date": "26/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954063,
+      "date": "26/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954064,
+      "date": "26/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954065,
+      "date": "26/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954066,
+      "date": "26/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954067,
+      "date": "26/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954058,
+      "date": "26/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954059,
+      "date": "26/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954060,
+      "date": "26/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954071,
+      "date": "29/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954072,
+      "date": "29/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954073,
+      "date": "29/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954074,
+      "date": "29/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954075,
+      "date": "29/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954076,
+      "date": "29/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954077,
+      "date": "29/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954068,
+      "date": "29/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954069,
+      "date": "29/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954070,
+      "date": "29/10/2025",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954086,
+      "date": "02/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954078,
+      "date": "02/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954079,
+      "date": "02/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954080,
+      "date": "02/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954081,
+      "date": "02/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954082,
+      "date": "02/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954083,
+      "date": "02/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954084,
+      "date": "02/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954085,
+      "date": "02/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954087,
+      "date": "02/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954095,
+      "date": "09/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954096,
+      "date": "09/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954097,
+      "date": "09/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954091,
+      "date": "09/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954088,
+      "date": "09/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954089,
+      "date": "09/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954090,
+      "date": "09/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954092,
+      "date": "09/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954093,
+      "date": "09/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954094,
+      "date": "09/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954105,
+      "date": "23/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954106,
+      "date": "23/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954107,
+      "date": "23/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954102,
+      "date": "23/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954103,
+      "date": "23/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954101,
+      "date": "23/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954104,
+      "date": "23/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954100,
+      "date": "23/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954099,
+      "date": "23/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954098,
+      "date": "23/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954116,
+      "date": "30/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954108,
+      "date": "30/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954109,
+      "date": "30/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954110,
+      "date": "30/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954111,
+      "date": "30/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954112,
+      "date": "30/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954113,
+      "date": "30/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954114,
+      "date": "30/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954115,
+      "date": "30/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954117,
+      "date": "30/11/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954121,
+      "date": "07/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954122,
+      "date": "07/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954123,
+      "date": "07/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954120,
+      "date": "07/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954119,
+      "date": "07/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954124,
+      "date": "07/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954118,
+      "date": "07/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954125,
+      "date": "07/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954126,
+      "date": "07/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954127,
+      "date": "07/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954136,
+      "date": "14/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954128,
+      "date": "14/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954129,
+      "date": "14/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954130,
+      "date": "14/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954131,
+      "date": "14/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954132,
+      "date": "14/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954133,
+      "date": "14/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954134,
+      "date": "14/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954135,
+      "date": "14/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954137,
+      "date": "14/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954141,
+      "date": "21/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954142,
+      "date": "21/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954143,
+      "date": "21/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954144,
+      "date": "21/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954145,
+      "date": "21/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954146,
+      "date": "21/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954147,
+      "date": "21/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954140,
+      "date": "21/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954139,
+      "date": "21/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954138,
+      "date": "21/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954151,
+      "date": "28/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954152,
+      "date": "28/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954153,
+      "date": "28/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954154,
+      "date": "28/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954155,
+      "date": "28/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954156,
+      "date": "28/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954157,
+      "date": "28/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954148,
+      "date": "28/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954149,
+      "date": "28/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954150,
+      "date": "28/12/2025",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954161,
+      "date": "03/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954162,
+      "date": "03/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954163,
+      "date": "03/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954164,
+      "date": "03/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954165,
+      "date": "03/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954166,
+      "date": "03/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954167,
+      "date": "03/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954158,
+      "date": "03/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954159,
+      "date": "03/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954160,
+      "date": "03/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954171,
+      "date": "06/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954172,
+      "date": "06/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954173,
+      "date": "06/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954174,
+      "date": "06/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954175,
+      "date": "06/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954176,
+      "date": "06/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954177,
+      "date": "06/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954168,
+      "date": "06/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954169,
+      "date": "06/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954170,
+      "date": "06/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954181,
+      "date": "11/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954178,
+      "date": "11/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954179,
+      "date": "11/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954180,
+      "date": "11/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954182,
+      "date": "11/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954183,
+      "date": "11/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954184,
+      "date": "11/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954185,
+      "date": "11/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954186,
+      "date": "11/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954187,
+      "date": "11/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954188,
+      "date": "18/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954189,
+      "date": "18/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954191,
+      "date": "18/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954190,
+      "date": "18/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954194,
+      "date": "18/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954193,
+      "date": "18/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954192,
+      "date": "18/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954197,
+      "date": "18/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954196,
+      "date": "18/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954195,
+      "date": "18/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954198,
+      "date": "25/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954199,
+      "date": "25/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954200,
+      "date": "25/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954201,
+      "date": "25/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954202,
+      "date": "25/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954203,
+      "date": "25/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954204,
+      "date": "25/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954205,
+      "date": "25/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954206,
+      "date": "25/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954207,
+      "date": "25/01/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954211,
+      "date": "01/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954212,
+      "date": "01/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954213,
+      "date": "01/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954214,
+      "date": "01/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954215,
+      "date": "01/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954216,
+      "date": "01/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954217,
+      "date": "01/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954210,
+      "date": "01/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954209,
+      "date": "01/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954208,
+      "date": "01/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954221,
+      "date": "08/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954222,
+      "date": "08/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954223,
+      "date": "08/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954224,
+      "date": "08/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954225,
+      "date": "08/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954226,
+      "date": "08/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954227,
+      "date": "08/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954218,
+      "date": "08/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954219,
+      "date": "08/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954220,
+      "date": "08/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954236,
+      "date": "15/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954228,
+      "date": "15/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954229,
+      "date": "15/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954230,
+      "date": "15/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954231,
+      "date": "15/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954232,
+      "date": "15/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954233,
+      "date": "15/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954234,
+      "date": "15/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954235,
+      "date": "15/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954237,
+      "date": "15/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954241,
+      "date": "22/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954242,
+      "date": "22/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954243,
+      "date": "22/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954244,
+      "date": "22/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954245,
+      "date": "22/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954246,
+      "date": "22/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954247,
+      "date": "22/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954240,
+      "date": "22/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954239,
+      "date": "22/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954238,
+      "date": "22/02/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954251,
+      "date": "01/03/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954252,
+      "date": "01/03/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954253,
+      "date": "01/03/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954254,
+      "date": "01/03/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954255,
+      "date": "01/03/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954256,
+      "date": "01/03/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954257,
+      "date": "01/03/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954248,
+      "date": "01/03/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954249,
+      "date": "01/03/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954250,
+      "date": "01/03/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954261,
+      "date": "08/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954262,
+      "date": "08/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954263,
+      "date": "08/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954264,
+      "date": "08/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954265,
+      "date": "08/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954266,
+      "date": "08/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954267,
+      "date": "08/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954258,
+      "date": "08/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954259,
+      "date": "08/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954260,
+      "date": "08/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954271,
+      "date": "15/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954272,
+      "date": "15/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954273,
+      "date": "15/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954274,
+      "date": "15/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954275,
+      "date": "15/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954276,
+      "date": "15/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954277,
+      "date": "15/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954268,
+      "date": "15/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954269,
+      "date": "15/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954270,
+      "date": "15/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954281,
+      "date": "22/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954278,
+      "date": "22/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954279,
+      "date": "22/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954280,
+      "date": "22/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954282,
+      "date": "22/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954283,
+      "date": "22/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954284,
+      "date": "22/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954285,
+      "date": "22/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954286,
+      "date": "22/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954287,
+      "date": "22/03/2026",
+      "time": "14:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954291,
+      "date": "04/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954295,
+      "date": "04/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954296,
+      "date": "04/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954297,
+      "date": "04/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954288,
+      "date": "04/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954289,
+      "date": "04/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954290,
+      "date": "04/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954292,
+      "date": "04/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954293,
+      "date": "04/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954294,
+      "date": "04/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954305,
+      "date": "12/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954306,
+      "date": "12/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954307,
+      "date": "12/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954302,
+      "date": "12/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954303,
+      "date": "12/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954301,
+      "date": "12/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954304,
+      "date": "12/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954300,
+      "date": "12/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954299,
+      "date": "12/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954298,
+      "date": "12/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954316,
+      "date": "19/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954308,
+      "date": "19/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954309,
+      "date": "19/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954310,
+      "date": "19/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954311,
+      "date": "19/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954312,
+      "date": "19/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954313,
+      "date": "19/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954314,
+      "date": "19/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954315,
+      "date": "19/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954317,
+      "date": "19/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954321,
+      "date": "26/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954322,
+      "date": "26/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954323,
+      "date": "26/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954324,
+      "date": "26/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954320,
+      "date": "26/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954319,
+      "date": "26/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954318,
+      "date": "26/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954325,
+      "date": "26/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954326,
+      "date": "26/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954327,
+      "date": "26/04/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954331,
+      "date": "03/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954328,
+      "date": "03/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954329,
+      "date": "03/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954330,
+      "date": "03/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954332,
+      "date": "03/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954333,
+      "date": "03/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954334,
+      "date": "03/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954335,
+      "date": "03/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954336,
+      "date": "03/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954337,
+      "date": "03/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954341,
+      "date": "10/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954342,
+      "date": "10/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954343,
+      "date": "10/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954344,
+      "date": "10/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954345,
+      "date": "10/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954346,
+      "date": "10/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954347,
+      "date": "10/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    },
+    {
+      "id": 954340,
+      "date": "10/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954339,
+      "date": "10/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954338,
+      "date": "10/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954351,
+      "date": "17/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2975,
+          "name": "Como"
+        },
+        "away": {
+          "id": 4409,
+          "name": "Parma"
+        }
+      }
+    },
+    {
+      "id": 954352,
+      "date": "17/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4411,
+          "name": "Genoa"
+        },
+        "away": {
+          "id": 4407,
+          "name": "AC Milan"
+        }
+      }
+    },
+    {
+      "id": 954353,
+      "date": "17/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3296,
+          "name": "Inter Milan"
+        },
+        "away": {
+          "id": 2982,
+          "name": "Verona"
+        }
+      }
+    },
+    {
+      "id": 954354,
+      "date": "17/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4406,
+          "name": "Juventus"
+        },
+        "away": {
+          "id": 2969,
+          "name": "Fiorentina"
+        }
+      }
+    },
+    {
+      "id": 954355,
+      "date": "17/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3388,
+          "name": "Pisa"
+        },
+        "away": {
+          "id": 2984,
+          "name": "Napoli"
+        }
+      }
+    },
+    {
+      "id": 954356,
+      "date": "17/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4408,
+          "name": "Sassuolo"
+        },
+        "away": {
+          "id": 2978,
+          "name": "Lecce"
+        }
+      }
+    },
+    {
+      "id": 954357,
+      "date": "17/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3206,
+          "name": "Udinese"
+        },
+        "away": {
+          "id": 2981,
+          "name": "Cremonese"
+        }
+      }
+    },
+    {
+      "id": 954348,
+      "date": "17/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3767,
+          "name": "Roma"
+        },
+        "away": {
+          "id": 3582,
+          "name": "Lazio"
+        }
+      }
+    },
+    {
+      "id": 954349,
+      "date": "17/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2950,
+          "name": "Atalanta"
+        },
+        "away": {
+          "id": 2820,
+          "name": "Bologna"
+        }
+      }
+    },
+    {
+      "id": 954350,
+      "date": "17/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4410,
+          "name": "Cagliari"
+        },
+        "away": {
+          "id": 3062,
+          "name": "Torino"
+        }
+      }
+    },
+    {
+      "id": 954361,
+      "date": "24/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2969,
+          "name": "Fiorentina"
+        },
+        "away": {
+          "id": 2950,
+          "name": "Atalanta"
+        }
+      }
+    },
+    {
+      "id": 954362,
+      "date": "24/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3582,
+          "name": "Lazio"
+        },
+        "away": {
+          "id": 3388,
+          "name": "Pisa"
+        }
+      }
+    },
+    {
+      "id": 954363,
+      "date": "24/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2978,
+          "name": "Lecce"
+        },
+        "away": {
+          "id": 4411,
+          "name": "Genoa"
+        }
+      }
+    },
+    {
+      "id": 954364,
+      "date": "24/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2984,
+          "name": "Napoli"
+        },
+        "away": {
+          "id": 3206,
+          "name": "Udinese"
+        }
+      }
+    },
+    {
+      "id": 954365,
+      "date": "24/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4409,
+          "name": "Parma"
+        },
+        "away": {
+          "id": 4408,
+          "name": "Sassuolo"
+        }
+      }
+    },
+    {
+      "id": 954366,
+      "date": "24/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 3062,
+          "name": "Torino"
+        },
+        "away": {
+          "id": 4406,
+          "name": "Juventus"
+        }
+      }
+    },
+    {
+      "id": 954367,
+      "date": "24/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2982,
+          "name": "Verona"
+        },
+        "away": {
+          "id": 3767,
+          "name": "Roma"
+        }
+      }
+    },
+    {
+      "id": 954358,
+      "date": "24/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 4407,
+          "name": "AC Milan"
+        },
+        "away": {
+          "id": 4410,
+          "name": "Cagliari"
+        }
+      }
+    },
+    {
+      "id": 954359,
+      "date": "24/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2820,
+          "name": "Bologna"
+        },
+        "away": {
+          "id": 3296,
+          "name": "Inter Milan"
+        }
+      }
+    },
+    {
+      "id": 954360,
+      "date": "24/05/2026",
+      "time": "13:00",
+      "teams": {
+        "home": {
+          "id": 2981,
+          "name": "Cremonese"
+        },
+        "away": {
+          "id": 2975,
+          "name": "Como"
+        }
+      }
+    }
+  ]
+}
