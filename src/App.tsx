@@ -29,6 +29,28 @@ const PUBLIC_FILES: Record<LeagueKey, string> = {
   'Serie A': '/serie_a.json',
 };
 
+// Utility function to get league logo path
+function getLeagueLogoPath(league: string): string {
+  const leagueFolder = league.toLowerCase().replace(/\s+/g, '_');
+  return `/league_logos/${leagueFolder}.png`;
+}
+
+// Utility function to get team logo path
+function getTeamLogoPath(teamName: string, league: string): string {
+  // Convert team name to filename format (lowercase, spaces and special chars to underscores)
+  const filename = teamName
+    .toLowerCase()
+    .replace(/[&\-\.\(\)]/g, '_') // Replace special characters with underscore
+    .replace(/\s+/g, '_') // Replace spaces with underscore
+    .replace(/^_|_$/g, ''); // Remove leading/trailing underscores
+  // Note: Keep multiple underscores as they might be part of the actual filename
+
+  // Convert league name to folder format (lowercase, spaces to underscores)
+  const leagueFolder = league.toLowerCase().replace(/\s+/g, '_');
+
+  return `/team_logos/${leagueFolder}/${filename}.png`;
+}
+
 function parseWIBDate(dateStr: string, timeStr: string): Date {
   // date: dd/MM/yyyy, time: HH:mm
   const [d, m, y] = dateStr.split('/').map(Number);
@@ -150,7 +172,15 @@ function useAllMatches(): {
   return { matches, loading, error };
 }
 
-function TeamBadge({ name }: { name: string }) {
+function LeagueLogo({ league }: { league: string }) {
+  const logoPath = useMemo(() => getLeagueLogoPath(league), [league]);
+
+  return <img src={logoPath} alt={`${league} logo`} className="league-logo" />;
+}
+
+function TeamBadge({ name, league }: { name: string; league: string }) {
+  const [logoError, setLogoError] = useState(false);
+
   const initials = useMemo(() => {
     const words = name
       .replace(/&/g, ' ')
@@ -164,9 +194,25 @@ function TeamBadge({ name }: { name: string }) {
     const letters = (words[0]?.[0] || '') + (words[1]?.[0] || '');
     return letters.toUpperCase();
   }, [name]);
+
+  const logoPath = useMemo(() => getTeamLogoPath(name, league), [name, league]);
+
+  const handleImageError = () => {
+    setLogoError(true);
+  };
+
   return (
     <div className="badge">
-      <span>{initials || name.slice(0, 2).toUpperCase()}</span>
+      {!logoError ? (
+        <img
+          src={logoPath}
+          alt={`${name} logo`}
+          onError={handleImageError}
+          className="team-logo"
+        />
+      ) : (
+        <span>{initials || name.slice(0, 2).toUpperCase()}</span>
+      )}
     </div>
   );
 }
@@ -376,7 +422,7 @@ function MatchCard({ match }: { match: Match }) {
       <div className="divider" />
       <div className="teams">
         <div className="team">
-          <TeamBadge name={match.teams.home.name} />
+          <TeamBadge name={match.teams.home.name} league={match.league} />
           <div className="team-name">{match.teams.home.name}</div>
         </div>
         <div className="vs">
@@ -384,7 +430,7 @@ function MatchCard({ match }: { match: Match }) {
           <StatusPill status={match.status} time={timeWIB} />
         </div>
         <div className="team right">
-          <TeamBadge name={match.teams.away.name} />
+          <TeamBadge name={match.teams.away.name} league={match.league} />
           <div className="team-name">{match.teams.away.name}</div>
         </div>
       </div>
@@ -544,7 +590,7 @@ export default function App() {
               }
             }}
           >
-            🏴󠁧󠁢󠁥󠁮 Premier League
+            <LeagueLogo league="Premier League" /> Premier League
           </button>
           <button
             className={`league-filter ${
@@ -564,7 +610,7 @@ export default function App() {
               }
             }}
           >
-            🇪🇸 La Liga
+            <LeagueLogo league="La Liga" /> La Liga
           </button>
           <button
             className={`league-filter ${
@@ -584,7 +630,7 @@ export default function App() {
               }
             }}
           >
-            🇩🇪 Bundesliga
+            <LeagueLogo league="Bundesliga" /> Bundesliga
           </button>
           <button
             className={`league-filter ${
@@ -604,7 +650,7 @@ export default function App() {
               }
             }}
           >
-            🇮🇹 Serie A
+            <LeagueLogo league="Serie A" /> Serie A
           </button>
         </div>
       </div>
@@ -676,10 +722,7 @@ export default function App() {
               <div key={leagueName} className="league-section">
                 <div className="league-header">
                   <h2 className="league-title">
-                    {leagueName === 'Premier League' && '🏴󠁧󠁢󠁥󠁮'}
-                    {leagueName === 'La Liga' && '🇪🇸'}
-                    {leagueName === 'Bundesliga' && '🇩🇪'}
-                    {leagueName === 'Serie A' && '🇮🇹'} {leagueName}
+                    <LeagueLogo league={leagueName} /> {leagueName}
                   </h2>
                   <span className="match-count">
                     {filteredMatches.length} pertandingan
