@@ -495,6 +495,13 @@
   vertical-align: middle;
 }
 
+/* Larger league logos in section headers */
+.league-title .league-logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
 /* League-specific colors - Subtle differentiation */
 .card.match.league-premier-league {
   border-left-color: var(--league-premier);
@@ -820,11 +827,11 @@
 .pagination-btn:hover:not(:disabled):not(.ellipsis) {
   background: linear-gradient(
     135deg,
-    var(--neutral-600) 0%,
-    var(--neutral-700) 100%
+    rgba(34, 197, 94, 0.2) 0%,
+    rgba(22, 163, 74, 0.3) 100%
   );
-  border-color: var(--neutral-500);
-  color: var(--text-primary);
+  border-color: var(--primary-green-light);
+  color: var(--primary-green-light);
   transform: translateY(-1px);
 }
 
@@ -1259,8 +1266,8 @@
   }
 
   .league-filter {
-    font-size: 11px;
-    padding: 8px 12px;
+    font-size: 13px;
+    padding: 10px 14px;
   }
 
   .pagination {
