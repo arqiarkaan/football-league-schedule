@@ -51,7 +51,7 @@ function getTeamLogoPath(teamName: string, league: string): string {
 
   // Check if team has a special case mapping
   if (specialCases[teamName]) {
-    return `/team_logos/${leagueFolder}/${specialCases[teamName]}.png`;
+    return `/team_logos/${leagueFolder}/${specialCases[teamName]}.webp`;
   }
 
   // Default conversion for teams not in special cases
