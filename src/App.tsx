@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, useRef } from 'react';
+import { useEffect, useMemo, useState, useRef, memo, useCallback } from 'react';
 import './App.css';
 
 type Team = { id: number; name: string };
@@ -32,7 +32,7 @@ const PUBLIC_FILES: Record<LeagueKey, string> = {
 // Utility function to get league logo path
 function getLeagueLogoPath(league: string): string {
   const leagueFolder = league.toLowerCase().replace(/\s+/g, '_');
-  return `/league_logos/${leagueFolder}.png`;
+  return `/league_logos/${leagueFolder}.webp`;
 }
 
 // Utility function to get team logo path
@@ -65,8 +65,76 @@ function getTeamLogoPath(teamName: string, league: string): string {
     .replace(/_+/g, '_') // Replace multiple underscores with single underscore
     .replace(/^_|_$/g, ''); // Remove leading/trailing underscores
 
-  return `/team_logos/${leagueFolder}/${filename}.png`;
+  return `/team_logos/${leagueFolder}/${filename}.webp`;
 }
+
+// Custom hook for lazy loading with Intersection Observer
+function useIntersectionObserver(options = {}) {
+  const [isVisible, setIsVisible] = useState(false);
+  const [hasBeenVisible, setHasBeenVisible] = useState(false);
+  const elementRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const element = elementRef.current;
+    if (!element) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !hasBeenVisible) {
+          setIsVisible(true);
+          setHasBeenVisible(true);
+          observer.disconnect();
+        }
+      },
+      {
+        rootMargin: '50px',
+        threshold: 0.1,
+        ...options,
+      }
+    );
+
+    observer.observe(element);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [hasBeenVisible, options]);
+
+  return { elementRef, isVisible, hasBeenVisible };
+}
+
+// Image preloader utility with WebP support
+const imageCache = new Set<string>();
+const preloadImage = (src: string): Promise<void> => {
+  return new Promise((resolve, reject) => {
+    if (imageCache.has(src)) {
+      resolve();
+      return;
+    }
+
+    const img = new Image();
+    img.onload = () => {
+      imageCache.add(src);
+      resolve();
+    };
+    img.onerror = () => {
+      // Try PNG fallback if WebP fails
+      if (src.endsWith('.webp')) {
+        const pngSrc = src.replace('.webp', '.png');
+        const fallbackImg = new Image();
+        fallbackImg.onload = () => {
+          imageCache.add(pngSrc);
+          resolve();
+        };
+        fallbackImg.onerror = reject;
+        fallbackImg.src = pngSrc;
+      } else {
+        reject();
+      }
+    };
+    img.src = src;
+  });
+};
 
 function parseWIBDate(dateStr: string, timeStr: string): Date {
   // date: dd/MM/yyyy, time: HH:mm
@@ -189,11 +257,46 @@ function useAllMatches(): {
   return { matches, loading, error };
 }
 
-function LeagueLogo({ league }: { league: string }) {
+const LeagueLogo = memo(function LeagueLogo({ league }: { league: string }) {
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const [currentSrc, setCurrentSrc] = useState<string>('');
   const logoPath = useMemo(() => getLeagueLogoPath(league), [league]);
 
-  return <img src={logoPath} alt={`${league} logo`} className="league-logo" />;
-}
+  useEffect(() => {
+    preloadImage(logoPath)
+      .then(() => {
+        setCurrentSrc(logoPath);
+        setImageLoaded(true);
+      })
+      .catch(() => {
+        // Try PNG fallback
+        const pngPath = logoPath.replace('.webp', '.png');
+        preloadImage(pngPath)
+          .then(() => {
+            setCurrentSrc(pngPath);
+            setImageLoaded(true);
+          })
+          .catch(() => {
+            // Final fallback - use original path and let browser handle
+            setCurrentSrc(logoPath);
+            setImageLoaded(true);
+          });
+      });
+  }, [logoPath]);
+
+  return (
+    <img
+      src={currentSrc || logoPath}
+      alt={`${league} logo`}
+      className="league-logo"
+      loading="lazy"
+      style={{
+        opacity: imageLoaded ? 1 : 0.7,
+        transition: 'opacity 0.2s ease',
+      }}
+    />
+  );
+});
 
 function DateTimeDisplay() {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -253,8 +356,17 @@ function DateTimeDisplay() {
   );
 }
 
-function TeamBadge({ name, league }: { name: string; league: string }) {
+const TeamBadge = memo(function TeamBadge({
+  name,
+  league,
+}: {
+  name: string;
+  league: string;
+}) {
   const [logoError, setLogoError] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const [currentSrc, setCurrentSrc] = useState<string>('');
+  const { elementRef, isVisible } = useIntersectionObserver();
 
   const initials = useMemo(() => {
     const words = name
@@ -272,25 +384,71 @@ function TeamBadge({ name, league }: { name: string; league: string }) {
 
   const logoPath = useMemo(() => getTeamLogoPath(name, league), [name, league]);
 
-  const handleImageError = () => {
-    setLogoError(true);
-  };
+  const handleImageError = useCallback(() => {
+    // Try PNG fallback if WebP fails
+    if (currentSrc.endsWith('.webp')) {
+      const pngFallback = currentSrc.replace('.webp', '.png');
+      setCurrentSrc(pngFallback);
+    } else {
+      setLogoError(true);
+    }
+  }, [currentSrc]);
+
+  const handleImageLoad = useCallback(() => {
+    setImageLoaded(true);
+  }, []);
+
+  // Preload image when visible with WebP/PNG fallback
+  useEffect(() => {
+    if (isVisible && !logoError && !imageLoaded) {
+      preloadImage(logoPath)
+        .then(() => {
+          setCurrentSrc(logoPath);
+        })
+        .catch(() => {
+          // Try PNG fallback
+          const pngPath = logoPath.replace('.webp', '.png');
+          preloadImage(pngPath)
+            .then(() => {
+              setCurrentSrc(pngPath);
+            })
+            .catch(() => {
+              setLogoError(true);
+            });
+        });
+    }
+  }, [isVisible, logoPath, logoError, imageLoaded]);
 
   return (
-    <div className="badge">
-      {!logoError ? (
+    <div ref={elementRef} className="badge">
+      {isVisible && !logoError && currentSrc ? (
         <img
-          src={logoPath}
+          src={currentSrc}
           alt={`${name} logo`}
           onError={handleImageError}
+          onLoad={handleImageLoad}
           className="team-logo"
+          loading="lazy"
+          style={{
+            opacity: imageLoaded ? 1 : 0,
+            transition: 'opacity 0.3s ease',
+          }}
         />
-      ) : (
-        <span>{initials || name.slice(0, 2).toUpperCase()}</span>
+      ) : null}
+
+      {(!isVisible || logoError || !imageLoaded || !currentSrc) && (
+        <span
+          style={{
+            opacity: isVisible && imageLoaded && currentSrc ? 0 : 1,
+            transition: 'opacity 0.3s ease',
+          }}
+        >
+          {initials || name.slice(0, 2).toUpperCase()}
+        </span>
       )}
     </div>
   );
-}
+});
 
 function StatusPill({ status, time }: { status: Status; time: string }) {
   if (status === 'UPCOMING') {
@@ -481,15 +639,20 @@ function Pagination({
   );
 }
 
-function MatchCard({ match }: { match: Match }) {
-  const timeWIB = formatTimeWIB(match.kickoff);
-  const dateIndonesian = formatDateIndonesian(match.kickoff);
+const MatchCard = memo(function MatchCard({ match }: { match: Match }) {
+  const timeWIB = useMemo(() => formatTimeWIB(match.kickoff), [match.kickoff]);
+  const dateIndonesian = useMemo(
+    () => formatDateIndonesian(match.kickoff),
+    [match.kickoff]
+  );
+  const leagueClassName = useMemo(
+    () => match.league.toLowerCase().replace(/\s+/g, '-'),
+    [match.league]
+  );
 
   return (
     <div
-      className={`card match ${match.status.toLowerCase()} league-${match.league
-        .toLowerCase()
-        .replace(/\s+/g, '-')}`}
+      className={`card match ${match.status.toLowerCase()} league-${leagueClassName}`}
     >
       <div className="card-header">
         <div className="match-date">📅 {dateIndonesian}</div>
@@ -511,7 +674,7 @@ function MatchCard({ match }: { match: Match }) {
       </div>
     </div>
   );
-}
+});
 
 export default function App() {
   const { matches, loading, error } = useAllMatches();
@@ -530,41 +693,67 @@ export default function App() {
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
   const [showFabPopup, setShowFabPopup] = useState<boolean>(false);
 
+  // Preload critical images on app mount
+  useEffect(() => {
+    const criticalImages = [
+      '/league_logos/premier_league.webp',
+      '/league_logos/la_liga.webp',
+      '/league_logos/bundesliga.webp',
+      '/league_logos/serie_a.webp',
+    ];
+
+    criticalImages.forEach((imagePath) => {
+      preloadImage(imagePath).catch(() => {
+        // Silently fail for preloading
+      });
+    });
+  }, []);
+
   const MATCHES_PER_PAGE = 6;
 
   const filtered = useMemo(() => {
-    return matches
-      .filter((m) => {
-        if (selectedLeagues.has('ALL')) return true;
-        return selectedLeagues.has(m.league);
-      })
-      .sort((a, b) => {
-        // Only move finished matches to bottom
-        if (a.status === 'FINISHED' && b.status !== 'FINISHED') return 1;
-        if (b.status === 'FINISHED' && a.status !== 'FINISHED') return -1;
-        return a.kickoff.getTime() - b.kickoff.getTime();
-      });
+    if (!matches.length) return [];
+
+    const isAllSelected = selectedLeagues.has('ALL');
+    const filteredMatches = isAllSelected
+      ? matches
+      : matches.filter((m) => selectedLeagues.has(m.league));
+
+    return filteredMatches.sort((a, b) => {
+      // Only move finished matches to bottom - optimized comparison
+      if (a.status === 'FINISHED' && b.status !== 'FINISHED') return 1;
+      if (b.status === 'FINISHED' && a.status !== 'FINISHED') return -1;
+      return a.kickoff.getTime() - b.kickoff.getTime();
+    });
   }, [matches, selectedLeagues]);
 
-  // Get all unique teams for dropdown
+  // Get all unique teams for dropdown - optimized
   const allTeams = useMemo(() => {
+    if (!matches.length) return [];
+
     const teams = new Set<string>();
-    matches.forEach((match) => {
+    for (const match of matches) {
       teams.add(match.teams.home.name);
       teams.add(match.teams.away.name);
-    });
+    }
     return Array.from(teams).sort();
   }, [matches]);
 
   // Get team's upcoming matches
   const teamMatches = useMemo(() => {
-    if (!selectedTeam) return [];
-    return matches
-      .filter(
-        (match) =>
-          match.teams.home.name === selectedTeam ||
-          match.teams.away.name === selectedTeam
-      )
+    if (!selectedTeam || !matches.length) return [];
+
+    const teamMatchesArray: Match[] = [];
+    for (const match of matches) {
+      if (
+        match.teams.home.name === selectedTeam ||
+        match.teams.away.name === selectedTeam
+      ) {
+        teamMatchesArray.push(match);
+      }
+    }
+
+    return teamMatchesArray
       .sort((a, b) => {
         // Only move finished matches to bottom
         if (a.status === 'FINISHED' && b.status !== 'FINISHED') return 1;
@@ -576,6 +765,8 @@ export default function App() {
 
   // Group matches by league
   const groupedMatches = useMemo(() => {
+    if (!filtered.length) return [];
+
     const groups: Record<LeagueKey, Match[]> = {
       'Premier League': [],
       'La Liga': [],
@@ -583,47 +774,57 @@ export default function App() {
       'Serie A': [],
     };
 
-    filtered.forEach((match) => {
+    for (const match of filtered) {
       groups[match.league].push(match);
-    });
+    }
 
-    // Return leagues that have matches (before status filtering)
-    return Object.entries(groups)
-      .filter(([_, matches]) => matches.length > 0)
-      .map(([leagueName, matches]) => {
-        return [leagueName, matches] as [string, Match[]];
-      });
+    // Return leagues that have matches (before status filtering) - optimized
+    const result: [string, Match[]][] = [];
+    for (const [leagueName, matches] of Object.entries(groups)) {
+      if (matches.length > 0) {
+        result.push([leagueName, matches]);
+      }
+    }
+
+    return result;
   }, [filtered]);
 
-  // Apply status and search filtering to individual league matches
-  const getFilteredLeagueMatches = (leagueName: string, matches: Match[]) => {
-    const statusFilter = leagueStatusFilters[leagueName] || 'ALL';
-    const searchQuery = (leagueSearchQueries[leagueName] || '')
-      .trim()
-      .toLowerCase();
+  // Apply status and search filtering to individual league matches - optimized
+  const getFilteredLeagueMatches = useCallback(
+    (leagueName: string, matches: Match[]) => {
+      const statusFilter = leagueStatusFilters[leagueName] || 'ALL';
+      const searchQuery = (leagueSearchQueries[leagueName] || '')
+        .trim()
+        .toLowerCase();
 
-    return matches.filter((match) => {
-      // Status filter
-      if (statusFilter !== 'ALL') {
-        if (statusFilter === 'LIVE' && match.status !== 'LIVE') return false;
-        if (statusFilter === 'FINISHED' && match.status !== 'FINISHED')
-          return false;
+      if (statusFilter === 'ALL' && !searchQuery) {
+        return matches; // No filtering needed
       }
 
-      // Search filter
-      if (searchQuery) {
-        const homeMatch = match.teams.home.name
-          .toLowerCase()
-          .includes(searchQuery);
-        const awayMatch = match.teams.away.name
-          .toLowerCase()
-          .includes(searchQuery);
-        if (!homeMatch && !awayMatch) return false;
-      }
+      return matches.filter((match) => {
+        // Status filter - early return for performance
+        if (statusFilter !== 'ALL') {
+          if (statusFilter === 'LIVE' && match.status !== 'LIVE') return false;
+          if (statusFilter === 'FINISHED' && match.status !== 'FINISHED')
+            return false;
+        }
 
-      return true;
-    });
-  };
+        // Search filter - optimized string matching
+        if (searchQuery) {
+          const homeMatch = match.teams.home.name
+            .toLowerCase()
+            .includes(searchQuery);
+          const awayMatch = match.teams.away.name
+            .toLowerCase()
+            .includes(searchQuery);
+          if (!homeMatch && !awayMatch) return false;
+        }
+
+        return true;
+      });
+    },
+    [leagueStatusFilters, leagueSearchQueries]
+  );
 
   // Reset pagination when filters change
   useEffect(() => {
@@ -994,15 +1195,47 @@ export default function App() {
 
       {/* Floating Action Button (Mobile) */}
       <div className="fab-container">
-        <button className="fab-button" onClick={handleFabClick} title="Filter Liga">
+        <button
+          className="fab-button"
+          onClick={handleFabClick}
+          title="Filter Liga"
+        >
           <span role="img" aria-label="Filter Liga">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" style={{display: 'block'}} xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="6" width="20" height="3" rx="1.5" fill="#fff"/>
-              <rect x="7" y="12" width="14" height="3" rx="1.5" fill="#fff"/>
-              <rect x="10" y="18" width="8" height="3" rx="1.5" fill="#fff"/>
-              <circle cx="7" cy="7.5" r="2" fill="#22c55e" stroke="#fff" strokeWidth="1"/>
-              <circle cx="21" cy="13.5" r="2" fill="#fbbf24" stroke="#fff" strokeWidth="1"/>
-              <circle cx="14" cy="19.5" r="2" fill="#3b82f6" stroke="#fff" strokeWidth="1"/>
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              style={{ display: 'block' }}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect x="4" y="6" width="20" height="3" rx="1.5" fill="#fff" />
+              <rect x="7" y="12" width="14" height="3" rx="1.5" fill="#fff" />
+              <rect x="10" y="18" width="8" height="3" rx="1.5" fill="#fff" />
+              <circle
+                cx="7"
+                cy="7.5"
+                r="2"
+                fill="#22c55e"
+                stroke="#fff"
+                strokeWidth="1"
+              />
+              <circle
+                cx="21"
+                cy="13.5"
+                r="2"
+                fill="#fbbf24"
+                stroke="#fff"
+                strokeWidth="1"
+              />
+              <circle
+                cx="14"
+                cy="19.5"
+                r="2"
+                fill="#3b82f6"
+                stroke="#fff"
+                strokeWidth="1"
+              />
             </svg>
           </span>
         </button>
