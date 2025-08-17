@@ -178,6 +178,64 @@ function LeagueLogo({ league }: { league: string }) {
   return <img src={logoPath} alt={`${league} logo`} className="league-logo" />;
 }
 
+function DateTimeDisplay() {
+  const [currentTime, setCurrentTime] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  const formatDate = (date: Date): string => {
+    const months = [
+      'Januari',
+      'Februari',
+      'Maret',
+      'April',
+      'Mei',
+      'Juni',
+      'Juli',
+      'Agustus',
+      'September',
+      'Oktober',
+      'November',
+      'Desember',
+    ];
+
+    const day = date.getDate();
+    const month = months[date.getMonth()];
+    const year = date.getFullYear();
+
+    return `${day} ${month} ${year}`;
+  };
+
+  const formatTime = (date: Date): string => {
+    const wibTime = new Date(
+      date.toLocaleString('en-US', { timeZone: 'Asia/Jakarta' })
+    );
+    const hours = wibTime.getHours().toString().padStart(2, '0');
+    const minutes = wibTime.getMinutes().toString().padStart(2, '0');
+    const seconds = wibTime.getSeconds().toString().padStart(2, '0');
+
+    return `${hours}:${minutes}:${seconds}`;
+  };
+
+  return (
+    <div className="datetime-display">
+      <div className="date-text">⚽ {formatDate(currentTime)}</div>
+      <div className="time-card">
+        <div className="time-display">
+          <span className="time-text">{formatTime(currentTime)}</span>
+          <span className="timezone-text">WIB</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function TeamBadge({ name, league }: { name: string; league: string }) {
   const [logoError, setLogoError] = useState(false);
 
@@ -557,7 +615,7 @@ export default function App() {
     <div className="page">
       <header className="topbar">
         <div className="header-content">
-          <h1>⚽ Jadwal Bola (Liga)</h1>
+          <DateTimeDisplay />
         </div>
       </header>
 

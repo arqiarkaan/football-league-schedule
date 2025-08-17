@@ -77,7 +77,71 @@
 }
 
 .header-content {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.datetime-display {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.date-text {
+  font-size: 28px;
+  font-weight: 800;
+  background: linear-gradient(
+    135deg,
+    var(--primary-green) 0%,
+    var(--primary-green-light) 50%,
+    var(--accent-blue) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.time-card {
+  background: linear-gradient(
+    135deg,
+    var(--neutral-700) 0%,
+    var(--neutral-800) 100%
+  );
+  border: 2px solid var(--primary-green);
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
+  transition: all 0.3s ease;
+}
+
+.time-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(22, 163, 74, 0.4);
+}
+
+.time-display {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.time-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+}
+
+.timezone-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-green-light);
 }
 
 .topbar h1 {
@@ -986,6 +1050,27 @@
     font-size: 24px;
   }
 
+  .datetime-display {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .date-text {
+    font-size: 22px;
+  }
+
+  .time-card {
+    padding: 10px 14px;
+  }
+
+  .time-text {
+    font-size: 18px;
+  }
+
+  .timezone-text {
+    font-size: 12px;
+  }
+
   .sticky-section {
     padding: 16px;
   }
@@ -1098,6 +1183,27 @@
 }
 
 @media (max-width: 480px) {
+  .datetime-display {
+    gap: 8px;
+  }
+
+  .date-text {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .time-card {
+    padding: 8px 12px;
+  }
+
+  .time-text {
+    font-size: 16px;
+  }
+
+  .timezone-text {
+    font-size: 11px;
+  }
+
   .teams {
     grid-template-columns: 1fr auto 1fr;
     gap: 12px;
