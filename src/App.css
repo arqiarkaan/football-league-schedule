@@ -229,7 +229,7 @@
   background: rgba(17, 19, 24, 0.8);
   border: 1px solid #2b2f3a;
   border-radius: 12px;
-  padding: 14px 16px 14px 48px;
+  padding: 14px 48px 14px 48px; /* Add right padding for clear button */
   font-size: 16px;
   color: #e8eaf3;
   transition: all 0.2s ease;
@@ -879,6 +879,7 @@
 }
 
 .select-search {
+  position: relative;
   padding: 12px;
   border-bottom: 1px solid var(--neutral-700);
 }
@@ -892,7 +893,7 @@
   );
   border: 1px solid var(--neutral-600);
   border-radius: 8px;
-  padding: 10px 12px;
+  padding: 10px 44px 10px 12px; /* Optimized right padding for clear button */
   color: var(--text-primary);
   font-size: 14px;
   outline: none;
@@ -906,6 +907,70 @@
 
 .select-search-input::placeholder {
   color: var(--text-muted);
+}
+
+/* Search Clear Button Styles */
+.search-clear-button {
+  position: absolute;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  z-index: 10;
+}
+
+/* Team search clear button (inside select-search container) */
+.select-search .search-clear-button {
+  right: 20px; /* Account for select-search padding (12px) + some margin */
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+}
+
+.select-search .search-clear-button:hover {
+  background: var(--accent-red);
+  color: white;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.select-search .search-clear-button:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+/* League search clear button specific positioning */
+.search-clear-button.league-clear {
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+}
+
+.search-clear-button.league-clear:hover {
+  background: var(--accent-red);
+  color: white;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.search-clear-button.league-clear:active {
+  transform: translateY(-50%) scale(0.95);
 }
 
 .select-options {
@@ -1372,6 +1437,17 @@
 
   .team-dropdown.searchable-select .select-trigger {
     min-width: auto;
+  }
+
+  .select-search .search-clear-button {
+    width: 24px;
+    height: 24px;
+    font-size: 13px;
+  }
+
+  .select-search-input {
+    padding: 12px 42px 12px 14px;
+    font-size: 16px;
   }
 
   .team-selector.expanded {

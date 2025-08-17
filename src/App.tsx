@@ -534,6 +534,19 @@ function SearchableSelect({
               className="select-search-input"
               autoFocus
             />
+            {searchQuery && (
+              <button
+                type="button"
+                className="search-clear-button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setSearchQuery('');
+                }}
+                title="Clear search"
+              >
+                ✕
+              </button>
+            )}
           </div>
           <div className="select-options">
             <div
@@ -1076,6 +1089,21 @@ export default function App() {
                           }))
                         }
                       />
+                      {leagueSearchQueries[leagueName] && (
+                        <button
+                          type="button"
+                          className="search-clear-button league-clear"
+                          onClick={() =>
+                            setLeagueSearchQueries((prev) => ({
+                              ...prev,
+                              [leagueName]: '',
+                            }))
+                          }
+                          title="Clear search"
+                        >
+                          ✕
+                        </button>
+                      )}
                     </div>
                   </div>
 
