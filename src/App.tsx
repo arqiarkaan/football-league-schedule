@@ -662,14 +662,25 @@ export default function App() {
   };
 
   const handleFabFilterClick = (league: LeagueKey | 'ALL') => {
-    const newSelected = new Set<LeagueKey | 'ALL'>();
     if (league === 'ALL') {
-      newSelected.add('ALL');
+      setSelectedLeagues(new Set(['ALL']));
     } else {
-      newSelected.add(league);
+      const newSelected = new Set(selectedLeagues);
+      newSelected.delete('ALL'); // Remove 'ALL' when selecting specific leagues
+
+      if (newSelected.has(league)) {
+        newSelected.delete(league);
+        // If no leagues selected, default to 'ALL'
+        if (newSelected.size === 0) {
+          newSelected.add('ALL');
+        }
+      } else {
+        newSelected.add(league);
+      }
+
+      setSelectedLeagues(newSelected);
     }
-    setSelectedLeagues(newSelected);
-    setShowFabPopup(false);
+    // Don't close popup automatically - user can tap outside or tap FAB again
   };
 
   return (
@@ -983,11 +994,31 @@ export default function App() {
 
       {/* Floating Action Button (Mobile) */}
       <div className="fab-container">
-        <button className="fab-button" onClick={handleFabClick}>
-          🎯
+        <button className="fab-button" onClick={handleFabClick} title="Filter Liga">
+          <span role="img" aria-label="Filter Liga">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" style={{display: 'block'}} xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="6" width="20" height="3" rx="1.5" fill="#fff"/>
+              <rect x="7" y="12" width="14" height="3" rx="1.5" fill="#fff"/>
+              <rect x="10" y="18" width="8" height="3" rx="1.5" fill="#fff"/>
+              <circle cx="7" cy="7.5" r="2" fill="#22c55e" stroke="#fff" strokeWidth="1"/>
+              <circle cx="21" cy="13.5" r="2" fill="#fbbf24" stroke="#fff" strokeWidth="1"/>
+              <circle cx="14" cy="19.5" r="2" fill="#3b82f6" stroke="#fff" strokeWidth="1"/>
+            </svg>
+          </span>
         </button>
         <div className={`fab-popup ${showFabPopup ? 'show' : ''}`}>
-          <h3>Quick Filter</h3>
+          <div className="fab-popup-header">
+            <h3>Quick Filter</h3>
+            <button
+              className="fab-close"
+              onClick={() => setShowFabPopup(false)}
+            >
+              ✕
+            </button>
+          </div>
+          <div className="fab-hint">
+            <span>Tap beberapa liga untuk menggabungkan filter</span>
+          </div>
           <div className="fab-filters">
             <button
               className={`fab-filter ${
