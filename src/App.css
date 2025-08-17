@@ -170,6 +170,32 @@
   padding: 20px;
   margin-bottom: 24px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.sticky-section.scrolled {
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+.sticky-section.scrolled .league-filters {
+  gap: 6px;
+}
+
+.sticky-section.scrolled .league-filter {
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+.sticky-section.scrolled .league-filter .league-logo {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
 }
 
 /* League Controls */
@@ -500,6 +526,130 @@
   width: 32px;
   height: 32px;
   margin-right: 12px;
+}
+
+/* Floating Action Button (Mobile) */
+.fab-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  display: none;
+}
+
+.fab-button {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    var(--primary-green) 0%,
+    var(--primary-green-dark) 100%
+  );
+  border: none;
+  box-shadow: 0 6px 20px rgba(22, 163, 74, 0.4);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 24px;
+}
+
+.fab-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 24px rgba(22, 163, 74, 0.5);
+}
+
+.fab-button:active {
+  transform: scale(0.95);
+}
+
+/* FAB Filter Popup */
+.fab-popup {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  background: linear-gradient(
+    135deg,
+    var(--secondary-slate-light) 0%,
+    var(--secondary-slate) 100%
+  );
+  border: 1px solid var(--neutral-600);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  min-width: 280px;
+  opacity: 0;
+  transform: translateY(10px) scale(0.95);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.fab-popup.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: all;
+}
+
+.fab-popup h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.fab-filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.fab-filter {
+  background: linear-gradient(
+    135deg,
+    var(--neutral-700) 0%,
+    var(--neutral-800) 100%
+  );
+  border: 1px solid var(--neutral-600);
+  border-radius: 8px;
+  padding: 12px 8px;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.fab-filter:hover {
+  background: linear-gradient(
+    135deg,
+    var(--neutral-600) 0%,
+    var(--neutral-700) 100%
+  );
+  border-color: var(--neutral-500);
+  color: var(--text-primary);
+}
+
+.fab-filter.active {
+  background: linear-gradient(
+    135deg,
+    var(--primary-green) 0%,
+    var(--primary-green-dark) 100%
+  );
+  border-color: var(--primary-green);
+  color: white;
+}
+
+.fab-filter .league-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 0;
 }
 
 /* League-specific colors - Subtle differentiation */
@@ -1041,6 +1191,28 @@
 
   .league-filters {
     justify-content: center;
+  }
+}
+
+/* Show FAB on mobile, hide sticky filters */
+@media (max-width: 768px) {
+  .sticky-section {
+    display: none;
+  }
+
+  .fab-container {
+    display: block;
+  }
+}
+
+/* Desktop and tablet - show sticky, hide FAB */
+@media (min-width: 769px) {
+  .sticky-section {
+    display: block;
+  }
+
+  .fab-container {
+    display: none;
   }
 }
 

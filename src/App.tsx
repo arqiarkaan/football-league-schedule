@@ -527,6 +527,8 @@ export default function App() {
     Record<string, string>
   >({});
   const [showTeamHighlight, setShowTeamHighlight] = useState<boolean>(false);
+  const [isScrolled, setIsScrolled] = useState<boolean>(false);
+  const [showFabPopup, setShowFabPopup] = useState<boolean>(false);
 
   const MATCHES_PER_PAGE = 6;
 
@@ -628,6 +630,48 @@ export default function App() {
     setLeaguePages({});
   }, [selectedLeagues, leagueStatusFilters, leagueSearchQueries]);
 
+  // Handle scroll for sticky behavior
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      setIsScrolled(scrollTop > 100);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Close FAB popup when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (!target.closest('.fab-container')) {
+        setShowFabPopup(false);
+      }
+    };
+
+    if (showFabPopup) {
+      document.addEventListener('mousedown', handleClickOutside);
+      return () =>
+        document.removeEventListener('mousedown', handleClickOutside);
+    }
+  }, [showFabPopup]);
+
+  const handleFabClick = () => {
+    setShowFabPopup(!showFabPopup);
+  };
+
+  const handleFabFilterClick = (league: LeagueKey | 'ALL') => {
+    const newSelected = new Set<LeagueKey | 'ALL'>();
+    if (league === 'ALL') {
+      newSelected.add('ALL');
+    } else {
+      newSelected.add(league);
+    }
+    setSelectedLeagues(newSelected);
+    setShowFabPopup(false);
+  };
+
   return (
     <div className="page">
       <header className="topbar">
@@ -637,7 +681,7 @@ export default function App() {
       </header>
 
       {/* League Filter Section */}
-      <div className="sticky-section">
+      <div className={`sticky-section ${isScrolled ? 'scrolled' : ''}`}>
         <div className="league-filters">
           <button
             className={`league-filter ${
@@ -936,6 +980,63 @@ export default function App() {
       <footer className="footer">
         Zona waktu: WIB (UTC+7). Status Live diasumsikan ±2 jam dari kick-off.
       </footer>
+
+      {/* Floating Action Button (Mobile) */}
+      <div className="fab-container">
+        <button className="fab-button" onClick={handleFabClick}>
+          🎯
+        </button>
+        <div className={`fab-popup ${showFabPopup ? 'show' : ''}`}>
+          <h3>Quick Filter</h3>
+          <div className="fab-filters">
+            <button
+              className={`fab-filter ${
+                selectedLeagues.has('ALL') ? 'active' : ''
+              }`}
+              onClick={() => handleFabFilterClick('ALL')}
+            >
+              <span>🌐</span>
+              <span>All</span>
+            </button>
+            <button
+              className={`fab-filter ${
+                selectedLeagues.has('Premier League') ? 'active' : ''
+              }`}
+              onClick={() => handleFabFilterClick('Premier League')}
+            >
+              <LeagueLogo league="Premier League" />
+              <span>Premier</span>
+            </button>
+            <button
+              className={`fab-filter ${
+                selectedLeagues.has('La Liga') ? 'active' : ''
+              }`}
+              onClick={() => handleFabFilterClick('La Liga')}
+            >
+              <LeagueLogo league="La Liga" />
+              <span>La Liga</span>
+            </button>
+            <button
+              className={`fab-filter ${
+                selectedLeagues.has('Bundesliga') ? 'active' : ''
+              }`}
+              onClick={() => handleFabFilterClick('Bundesliga')}
+            >
+              <LeagueLogo league="Bundesliga" />
+              <span>Bundes</span>
+            </button>
+            <button
+              className={`fab-filter ${
+                selectedLeagues.has('Serie A') ? 'active' : ''
+              }`}
+              onClick={() => handleFabFilterClick('Serie A')}
+            >
+              <LeagueLogo league="Serie A" />
+              <span>Serie A</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
