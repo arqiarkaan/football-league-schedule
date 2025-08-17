@@ -37,16 +37,33 @@ function getLeagueLogoPath(league: string): string {
 
 // Utility function to get team logo path
 function getTeamLogoPath(teamName: string, league: string): string {
-  // Convert team name to filename format (lowercase, spaces and special chars to underscores)
-  const filename = teamName
-    .toLowerCase()
-    .replace(/[&\-\.\(\)]/g, '_') // Replace special characters with underscore
-    .replace(/\s+/g, '_') // Replace spaces with underscore
-    .replace(/^_|_$/g, ''); // Remove leading/trailing underscores
-  // Note: Keep multiple underscores as they might be part of the actual filename
-
   // Convert league name to folder format (lowercase, spaces to underscores)
   const leagueFolder = league.toLowerCase().replace(/\s+/g, '_');
+
+  // Handle special cases first
+  const specialCases: Record<string, string> = {
+    // Premier League special cases
+    'Brighton & Hove Albion': 'brighton__hove_albion',
+    // Bundesliga special cases
+    "Borussia M'gladbach": 'borussia_mgladbach',
+    'St. Pauli': 'st_pauli',
+  };
+
+  // Check if team has a special case mapping
+  if (specialCases[teamName]) {
+    return `/team_logos/${leagueFolder}/${specialCases[teamName]}.png`;
+  }
+
+  // Default conversion for teams not in special cases
+  const filename = teamName
+    .toLowerCase()
+    .replace(/'/g, '') // Remove apostrophes
+    .replace(/\./g, '') // Remove dots
+    .replace(/&/g, '_') // Replace & with underscore
+    .replace(/[,\-\(\)]/g, '_') // Replace other special chars with underscore
+    .replace(/\s+/g, '_') // Replace spaces with underscore
+    .replace(/_+/g, '_') // Replace multiple underscores with single underscore
+    .replace(/^_|_$/g, ''); // Remove leading/trailing underscores
 
   return `/team_logos/${leagueFolder}/${filename}.png`;
 }
